@@ -1,4 +1,4 @@
-# Boost uBLAS GSOC 2020 Competency Test - Building Matrix Libraries
+# Boost uBLAS GSoC 2020 Competency Test - Building Matrix Libraries
 
 ## Overview
 
@@ -28,3 +28,5 @@ I have made a test files for testing both `ETMatrix.hpp` and `CPP20Matrix.hpp` p
 3)  Below represents the time consumption analysis of both the libraries for **String data type**
     
     <img src="images/string_comp.png" width="400" height="230" />
+
+#### Note: Please do not use it for submitting a proposal for GSoC to BOOST Organisation, however, feel free to read and learn from it.

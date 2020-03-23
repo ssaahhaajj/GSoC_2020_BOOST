@@ -16,7 +16,7 @@ g++ example_file.cpp
 
 ## Speed Comparisions
 
-I have made a test files for testing both `ETMatrix.hpp` and `CPP20Matrix.hpp` present in `test` folder. Below are the comparision between the speed of both libraries on different data types and sizes of matrix.
+I have made test files for testing both `ETMatrix.hpp` and `CPP20Matrix.hpp` present in `test` folder. Below are the comparisons between the speed of both libraries on different data types and sizes of matrices.
 1)  Below represents the time consumption analysis of both the libraries for **Integer data type**
     
     <img src="images/int_comp.png" width="400" height="230" />

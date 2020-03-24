@@ -1,6 +1,6 @@
 /**
  * 
- * Author: Sahaj Jain
+ @author Sahaj Jain
  *
  * Purpose: Competency Test for the participation in
  *         GSOC 2020 in BOOST uBLAS.

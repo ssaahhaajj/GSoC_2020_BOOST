@@ -5,6 +5,7 @@
 #include <initializer_list>
 #include <iostream>
 using namespace std;
+
 BOOST_AUTO_TEST_SUITE(test_CPP20Matrix)
 
 BOOST_AUTO_TEST_CASE(CPP20Matrix_initialize_from_value) {

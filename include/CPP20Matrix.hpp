@@ -149,8 +149,9 @@ class CPP20Matrix
      */
     constexpr auto operator+(const CPP20Matrix<T> &mat2) {
     assert(shape() == mat2.shape());
-    (*this)._array=ranges::views::zip_with(std::plus<>{},(*this)._array,mat2._array);
-    return (*this);
+    CPP20Matrix<T> ans(mat2.shape().first,mat2.shape().second);
+    ans._array=ranges::views::zip_with(std::plus<>{},(*this)._array,mat2._array);
+    return ans;
     }
 };
 

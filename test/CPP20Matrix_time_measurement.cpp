@@ -13,10 +13,10 @@ int main(void) {
 	CPP20Matrix<int> b0(50,50,100);
 	CPP20Matrix<int> c0(50,50,100);
 	
-    CPP20Matrix<int> d0(100,100,100);
+  	CPP20Matrix<int> d0(100,100,100);
 	CPP20Matrix<int> e0(100,100,100);
     
-    CPP20Matrix<int> h0(150,150,100);
+    	CPP20Matrix<int> h0(150,150,100);
 	CPP20Matrix<int> i0(150,150,100);
 
 	CPP20Matrix<int> f0(200,200,100);
@@ -46,7 +46,7 @@ int main(void) {
 	}
 	int_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		CPP20Matrix<int> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -75,10 +75,10 @@ int main(void) {
 	CPP20Matrix<float> b1(50,50,100.0);
 	CPP20Matrix<float> c1(50,50,100.0);
 	
-    CPP20Matrix<float> d1(100,100,100.0);
+    	CPP20Matrix<float> d1(100,100,100.0);
 	CPP20Matrix<float> e1(100,100,100.0);
     
-    CPP20Matrix<float> h1(150,150,100.0);
+    	CPP20Matrix<float> h1(150,150,100.0);
 	CPP20Matrix<float> i1(150,150,100.0);
 
 	CPP20Matrix<float> f1(200,200,100.0);
@@ -108,7 +108,7 @@ int main(void) {
 	}
 	float_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		CPP20Matrix<float> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -137,10 +137,10 @@ int main(void) {
 	CPP20Matrix<string> b2(50,50,"abcdefghi");
 	CPP20Matrix<string> c2(50,50,"abcdefghi");
 	
-    CPP20Matrix<string> d2(100,100,"abcdefghi");
+    	CPP20Matrix<string> d2(100,100,"abcdefghi");
 	CPP20Matrix<string> e2(100,100,"abcdefghi");
     
-    CPP20Matrix<string> h2(150,150,"abcdefghi");
+    	CPP20Matrix<string> h2(150,150,"abcdefghi");
 	CPP20Matrix<string> i2(150,150,"abcdefghi");
 
 	CPP20Matrix<string> f2(200,200,"abcdefghi");
@@ -170,7 +170,7 @@ int main(void) {
 	}
 	string_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		CPP20Matrix<string> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();

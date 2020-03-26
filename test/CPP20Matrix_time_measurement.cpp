@@ -3,7 +3,6 @@
 #include <iostream>
 #include "/Users/sahajjain/Desktop/COMPETENCY_TEST/include/CPP20Matrix.hpp"
 #include <cassert>
-
 using namespace std;
 
 int main(void) {

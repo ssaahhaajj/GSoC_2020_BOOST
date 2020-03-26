@@ -13,10 +13,10 @@ int main(void) {
 	ETMatrix<int> b0(50,50,100);
 	ETMatrix<int> c0(50,50,100);
 	
-    ETMatrix<int> d0(100,100,100);
+    	ETMatrix<int> d0(100,100,100);
 	ETMatrix<int> e0(100,100,100);
     
-    ETMatrix<int> h0(150,150,100);
+    	ETMatrix<int> h0(150,150,100);
 	ETMatrix<int> i0(150,150,100);
 
 	ETMatrix<int> f0(200,200,100);
@@ -46,7 +46,7 @@ int main(void) {
 	}
 	int_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		ETMatrix<int> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -75,10 +75,10 @@ int main(void) {
 	ETMatrix<float> b1(50,50,100.0);
 	ETMatrix<float> c1(50,50,100.0);
 	
-    ETMatrix<float> d1(100,100,100.0);
+    	ETMatrix<float> d1(100,100,100.0);
 	ETMatrix<float> e1(100,100,100.0);
     
-    ETMatrix<float> h1(150,150,100.0);
+   	ETMatrix<float> h1(150,150,100.0);
 	ETMatrix<float> i1(150,150,100.0);
 
 	ETMatrix<float> f1(200,200,100.0);
@@ -108,7 +108,7 @@ int main(void) {
 	}
 	float_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		ETMatrix<float> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -137,10 +137,10 @@ int main(void) {
 	ETMatrix<string> b2(50,50,"abcdefghi");
 	ETMatrix<string> c2(50,50,"abcdefghi");
 	
-    ETMatrix<string> d2(100,100,"abcdefghi");
+    	ETMatrix<string> d2(100,100,"abcdefghi");
 	ETMatrix<string> e2(100,100,"abcdefghi");
     
-    ETMatrix<string> h2(150,150,"abcdefghi");
+    	ETMatrix<string> h2(150,150,"abcdefghi");
 	ETMatrix<string> i2(150,150,"abcdefghi");
 
 	ETMatrix<string> f2(200,200,"abcdefghi");
@@ -170,7 +170,7 @@ int main(void) {
 	}
 	string_time_100/=100;
 
-    for(int i=0;i<10;i++)
+    	for(int i=0;i<10;i++)
 	{
 		ETMatrix<string> a(150,150);
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();

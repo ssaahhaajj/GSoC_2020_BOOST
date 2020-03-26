@@ -4,7 +4,7 @@
 
 It is my submission for the competency test for BOOST uBLAS Competency Test for GSoC 2020. It contains two libraries in `include` folder. First is the `CPP20Matrix.hpp` which is a Matrix Library for addition of two or more matrices built using advanced features of C++20. Other is the `ETMatrix.hpp` library which is also used for addition of two or more matrices but it is built using Expression Templates.
 
-I have also performed unit testing for the `CPP20Matrix.hpp` written for competency test in `test/unit_test_CPP20Matrix.cpp`.
+I have also performed unit testing for the `CPP20Matrix.hpp` written for competency test in `test/CPP20Matrix_unit_test.cpp`.
 
 ## To run the program
 
